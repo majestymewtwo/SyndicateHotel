@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    color: gray;
+    width: 70%;
+    text-decoration: solid;
+    margin: auto;
+}
+i{
+    transform: scale(2,2);
+}
+i:hover{
+    text-shadow: 1px 1px 20px gray;
+    translate: 0px -2px;
+    transform: scale(2.3, 2.3);
+    transition-timing-function: ease-in-out;
+}
+.card:hover {
+    box-shadow: 5px 5px 30px gray;
+    transform: scale(1.02, 1.02);
+    transition-timing-function: ease-in-out;
+    
+}
+/* Navbar */
+.navbar{
+    background-color: #064420;
+}
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+}
+.nav-link:hover{
+    color: #B4E197;
+}
+/* Carousel Home */
+
+.carousel-title{
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.carousel-caption{
+    margin-bottom: 15%;
+}
+.carousel-body{
+    font-size: 1.2rem;
+}
+
+@media (min-width: 100px) and (max-width: 680px) {
+    .navbar{
+        text-align: center;
+    }
+    .nav-link, .search-button{
+        font-size: 1rem;
+        margin-bottom: 2%;
+    }
+    .carousel-caption {
+        margin-bottom: 3%;
+    }
+    .carousel-title{
+        font-size: 1.4rem;
+    }
+    .carousel-body{
+        font-size: 0.9rem;
+    }
+}
+
+/* About US */
+.about-image{
+    text-align: center;
+}
+.about-us{
+    margin: 5% 10%;
+    padding: 2% 4%;
+    background-color: #E4EFE7;
+}
+
+/* Contact Us */
+
+.contact-us {
+    margin: 0%;
+    padding: 2% 14%;
+    background-color: #7FB77E;
+    color: white;
+    text-align: center;
+}
+.brand-name{
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.sub-brand-name{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.contact-us-row{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    transform: scale(1,1);
+}
+.contact-us-row:hover{
+    transform: scale(1,1);
+    text-shadow: none;
+    translate: 0;
+}
+
+/* Hotels and Restaurants */
+.rooms, .restaurants{
+    margin: 3% 10%;
+    padding: 2% 0%;
+}
+.card{
+    box-shadow: inset;
+}
+.card-body{
+    background-color: #E4EFE7;
+}
+
+/* Reservations */
+.reservation{
+    margin: 3% 10%;
+    padding: 2% 4%;
+    background-color: #E4EFE7;
+}
+.input-forms{
+    width: 100%;
+}
+
+/* Services */
+.services{
+    margin: 0%;
+    padding: 3% 14%;
+    background-color: #B1D7B4;
+    
+}
+.service-icons{
+    color: black;
+}
+
+/* Reviews */
+.reviews{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./../../images/carousel_bg.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+}
+.inside-review{
+    margin: 0;
+    padding: 5% 10%;
+    background-color: rgba(109, 109, 109, 0.63);
+}
+.review-head{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.carousel-review{
+    background-color: white;
+    padding: 3% 5%;
+}
+
+.review-carousel{
+    margin: 20% 0%;
+    padding: 2%;
+    background-color: #064420;
+    visibility: 0.8;
+    height: 3rem;
+}
+
+/* Footer */
+.footer{
+    margin: 0%;
+    padding: 3% 14%;
+    background-color: #064420;
+    color: white;
+    text-align: center;
+}
+.footer-icon{
+    color: white;
+    margin: 4% 7%;
+}

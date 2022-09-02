@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Hotels - Syndicate</title>
+    <script src="https://kit.fontawesome.com/601ff0044d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/brand.png" alt="logo" height="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto px-lg-5">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rooms">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#restaurants">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reserve">Reserve</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services" >Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    
+                </ul>
+                <form class="d-flex justify-content-end search-button" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--CAROUSEL HOME-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" id="home">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="./images/caoursel_1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">Welcome to Syndicate Group of Hotels!</h1>
+                    <p class="carousel-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur vel
+                        distinctio dignissimos quisquam sed voluptate suscipit impedit beatae maxime.</p>
+                </div>
+            </div>
+            <div class="carousel-item"  data-bs-interval="4000">
+                <img src="./images/caoursel_2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption">
+                    <h1 class="carousel-title">Welcome to Syndicate Group of Hotels!</h1>
+                    <p class="carousel-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur vel distinctio dignissimos quisquam sed voluptate suscipit impedit beatae maxime.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--ABOUT US-->
+    <div class="about-us" id="about-us">
+        <div class="container-fluid row">
+            <div class="col-12 col-lg-5 about-image">
+                <img src="./images/about.jpg" alt="about-us" width="60%" class="shadow-lg">
+            </div>
+            <div class="col-12 col-lg-7 py-5">
+                <h1>About Us</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam neque dolores quasi unde, reiciendis eos alias repellendus nam accusantium repellat incidunt ut quam exercitationem dolorum vero minus esse ea at dicta deserunt distinctio deleniti facere. Quasi tenetur magni, voluptate sapiente maxime odio. Quibusdam consectetur iure ipsam harum praesentium, doloribus aperiam architecto veritatis porro tempore neque! Hic illo ipsam porro iste eos soluta. Nihil consequuntur, iusto eveniet cumque quo consequatur dolorum?</p>
+                <a href="#contact" class="btn btn-success">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--HOTELS-->
+    <h1 class="my-4 text-center">Our Rooms</h1>
+    <hr>
+    <div class="rooms text-center" id="rooms">
+        
+        <div class="row">
+            <div class="col-12 col-lg-4 my-4 my-lg-0">
+                <div class="card">
+                    <img src="./images/deluxe_room.jpg" alt="deluxe room">
+                    <div class="card-body">
+                        <h5 class="card-title">Deluxe Room</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet necessitatibus animi
+                            voluptate deserunt illum, quaerat dignissimos placeat iusto obcaecati.</p>
+                        <a href="#" class="btn btn-success">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 my-4 my-lg-0">
+                <div class="card">
+                    <img src="./images/suite_room.jpg" alt="suite room">
+                    <div class="card-body">
+                        <h5 class="card-title">Suite Room</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet necessitatibus
+                            animi
+                            voluptate deserunt illum, quaerat dignissimos placeat iusto obcaecati.</p>
+                        <a href="#" class="btn btn-success">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 my-4 my-lg-0">
+                <div class="card">
+                    <img src="./images/pool_villa.jpg" alt="pool villa">
+                    <div class="card-body">
+                        <h5 class="card-title">Pool Villa</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet necessitatibus
+                            animi
+                            voluptate deserunt illum, quaerat dignissimos placeat iusto obcaecati.</p>
+                        <a href="#" class="btn btn-success">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!--RESTAURANTS-->
+
+    <div class="restaurants text-center" id="restaurants">
+        <h1 class="mb-5">Our Restaurants</h1>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="card mx-0 my-5">
+                    <img src="./images/cafe.jpg" alt="Cafe">
+                    <div class="card-body">
+                        <h5 class="card-title">Cafe</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet
+                            necessitatibus animi
+                            voluptate deserunt illum, quaerat dignissimos placeat iusto obcaecati.</p>
+                        <a href="#" class="btn btn-success">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card mx-0 my-5">
+                    <img src="./images/cuisine.jpg" alt="Cuisine">
+                    <div class="card-body">
+                        <h5 class="card-title">Multi-Cuisine</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet
+                            necessitatibus
+                            animi
+                            voluptate deserunt illum, quaerat dignissimos placeat iusto obcaecati.</p>
+                        <a href="#" class="btn btn-success">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="card mx-0 my-5">
+                    <img src="./images/rooftop.jpg" alt="Roof Top">
+                    <div class="card-body">
+                        <h5 class="card-title">Roof Top</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet
+                            necessitatibus animi
+                            voluptate deserunt illum, quaerat dignissimos placeat iusto obcaecati.</p>
+                        <a href="#" class="btn btn-success">View More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card mx-0 my-5">
+                    <img src="./images/bar.jpg"alt="Cuisine">
+                    <div class="card-body">
+                        <h5 class="card-title">Bar</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia amet
+                            necessitatibus
+                            animi
+                            voluptate deserunt illum, quaerat dignissimos placeat iusto obcaecati.</p>
+                        <a href="#" class="btn btn-success">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Reservation-->
+    <h1 class="text-center my-3" id="reserve">Make a reservation</h1>
+    <hr class="mb-4">
+    <div class="reservation text-center">
+        <div class="row mb-3">
+            <div class="col-12 col-lg-6 my-lg-0 my-4">
+                <input type="text" placeholder="First Name" class="input-forms">
+            </div>
+            <div class="col-12 col-lg-6 my-lg-0 my-4">
+                <input type="text" placeholder="Last Name" class="input-forms">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 col-lg-3">
+                <label for="">Arrival Date : </label>
+                <input type="month" name="" id="" class="input-forms">
+            </div>
+            <div class="col-6 col-lg-3">
+                <label for="">Departure Date : </label>
+                <input type="month" name="" id="" class="input-forms">
+            </div>
+            <div class="col-6 col-lg-3">
+                <label for="">Arrival Time : </label>
+                <input type="time" name="" id="" class="input-forms">
+            </div>
+            <div class="col-6 col-lg-3">
+                <label for="">Departure Time : </label>
+                <input type="time" name="" id="" class="input-forms">
+            </div>
+            
+        </div>
+        <div class="row mb-3 text-center">
+            <div class="col-12 col-lg-6">
+                <label for="">Promo Code : </label>
+                <input type="text" placeholder="Promo Code, if any" class="input-forms">
+            </div>
+            <div class="col-6 col-lg-3">
+                <label for="">Adults : </label>
+                <input type="number" name="" id="" class="input-forms">
+            </div>
+            <div class="col-6 col-lg-3">
+                <label for="">Children : </label>
+                <input type="number" name="" id="" class="input-forms">
+            </div>
+        </div>
+        <a href="#" class="btn btn-success btn-lg w-50 mb-3">Reserve Now</a>
+    </div>
+    <!--Service-->
+    <div class="services text-center">
+        <h1 id="services">Our Services</h1>
+        <hr>
+        <div class="row text-center mt-3 my-lg-5 mx-5">
+            <div class="col-6 col-lg-3">
+                <i class="fa-sharp fa-solid fa-temperature-arrow-down"></i>
+                <p>Air Conditioned</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-person-swimming service-icons"></i>
+                <p>Swimming</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-wifi service-icons"></i>
+                <p>Free WiFi</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-utensils"></i>
+                <p>Restaurants</p>
+            </div>
+        </div>
+        <div class="row text-center mb-lg-5 mx-5">
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-hand-sparkles"></i>
+                <p>Spa</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-dumbbell"></i>
+                <p>Gym</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-user-doctor"></i>
+                <p>Doctor</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-handshake"></i>
+                <p>Business </p>
+            </div>
+        </div>
+        <div class="row text-center mb-lg-5 mx-5">
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-car"></i>
+                <p>Transport</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-regular fa-face-smile"></i>
+                <p>Quality Service</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-clock"></i>
+                <p>24/7 Service</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <i class="fa-solid fa-location-pin"></i>
+                <p>Prime Location</p>
+            </div>
+        </div>
+    </div>
+    
+    <!--Reviews-->
+
+    <div class="reviews text-center" id="reviews">
+        <div class="inside-review">
+            <h1 id="reviews" class="review-head">Our Customer Reviews</h1>
+            <hr class="review-head">          
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    
+                </div>
+                <div class="carousel-inner carousel-review">
+                    <div class="carousel-item active">
+                        <p class="mx-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates accusamus accusantium eius eligendi
+                            dignissimos aut tempora eos, ipsam perspiciatis itaque nostrum suscipit commodi culpa, a consectetur
+                            aliquam. Iusto veritatis magni necessitatibus ad rem perferendis quas voluptatum explicabo odit, quam
+                            velit.</p>
+                        <img src="./images/cust_1.jpg" alt="Customer 1" width="200rem">
+                        <h3 class="mt-4">Sara Walker</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="mx-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates accusamus accusantium eius eligendi
+                            dignissimos
+                            aut tempora eos, ipsam perspiciatis itaque nostrum suscipit commodi culpa, a consectetur aliquam. Iusto
+                            veritatis
+                            magni necessitatibus ad rem perferendis quas voluptatum explicabo odit, quam velit.</p>
+                        <img src="./images/cust_2.jpg" alt="Customer 2" width="200rem">
+                        <h3 class="mt-4">Catie Hill</h3>
+                    </div>
+                </div>
+                <button class="carousel-control-prev review-carousel" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next review-carousel" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Contact Us-->
+    <div class="contact-us align-content-center" id="contact">
+        <a href="#home"><img src="./images/brand_light.png" alt="Syndicate Hotels" class="mb-4" width="400rem"></a>
+        <p class="address">
+            #69, IT Expressway (NFT), Near Hogwarts, Bogzilla IT Park, Cahoona - 400 123
+        </p>
+        <div class="container-fluid my-5 mx-auto d-md-flex justify-content-center text-center">
+            <i class="contact-us-row fa-solid fa-phone my-5 my-lg-auto"></i>
+            <p class="contact-us-row ">9087 9456</p>
+            <i class="contact-us-row fa-solid fa-envelope my-5 my-lg-auto"></i>
+            <p class="contact-us-row ">syndicate.hotels@example.com</p>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <div class="footer">
+        <a href="https://www.facebook.com/muthu.aanand/" target="_blank"><i class="footer-icon fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/mew2uwu/" target="_blank"><i class="footer-icon fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/MuthuAanand" target="_blank"><i class="footer-icon fa-brands fa-twitter"></i></a>
+        <a href="mailto:majestymewtwo@gmail.com"><i class="footer-icon fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/muthu-aanand-su-b36188218/" target="_blank"><i
+                class="footer-icon fa-brands fa-linkedin"></i></a>
+        <p>© Copyright Muthu Aanand </p>
+    </div>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
